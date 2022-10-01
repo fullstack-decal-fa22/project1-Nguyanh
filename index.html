@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thu Nguyen">
+    <author style="color:#222">Thu Nguyen</author> <!--Get rid of later-->
+    <title>Thu Nguyen</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header container" id="home">
+            <a href="#contact">Contact</a>
+            <a href="#work">Work</a>
+            <a href="#home">Home</a>
+        </div>
+    </header>
+    <main>
+        <div class="top container">
+            <div class="top_left">
+                <h1 class="top_name">Thu<br>Nguyen</h1>
+                <ul class="top_media">
+                    <li>
+                        <a href="https://www.linkedin.com/in/nguyentanh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nguyanh" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/yuenhna/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="top_right">
+                <img src="IMG_1174.JPG" class="portrait"/>
+                <h5 class="small-title"><span>&#8212</span> About Me</h5>
+                <h2 class="top_right_text">Software engineer and full-stack developer.</h2>
+                <p class="top_right_text">I'm a third year student studying computer science and data science at UC Berkeley.</p>
+            </div>
+        </div>
+        <div class="work container" id="work">
+            <h5 class="small-title"><span>&#8212</span> Work</h5>
+            <h2 class="title">Experience</h2>
+            <div class="cards jobs">
+                <div class="job1">
+                    <a href=""><img src="Notion Background - Study Spot.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">Academic Intern</h3>
+                    <h4 class="description"></h4>
+                </div>
+                <div class="job2">
+                    <a href=""><img src="Notion Background - Cat.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">Academic Intern</h3>
+                </div>
+            </div>
+            <h2 class="title">Projects</h2>
+            <div class="cards projects">
+                <div class="proj1">
+                    <a href=""><img src="Notion Background - Study Spot.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">Personal Website</h3>
+                </div>
+                <div class="proj2">
+                    <a href=""><img src="Notion Background - Cat.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">S1XT33N: Voice-Controlled Robot Car</h3>
+                </div>
+                <div class="proj3">
+                    <a href=""><img src="Notion Background - Desk.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">Build Your Own World</h3>
+                </div>
+                <div class="proj4">
+                    <a href=""><img src="Notion Background - Plant.png" class="preview-image"/></a>
+                    <h3 class="smaller-title">Gitlet</h3>
+                </div>
+            </div>
+        </div>
+        <div class="bottom container" id="contact">
+            <h4 class="contact">Contact</h4>
+            <p class="info">Email me at nguyenta@berkeley.edu or reach out to me on LinkedIn!</p>
+        </div>
+        <div class="extra container">
+            <form action="send_message">
+                <label for="message">Send me a message:</label>
+                <input type="text" id="name">
+                <input type="submit">
+            </form>
+            <br>
+            <br>
+            <button onClick="alert('Thank you for visiting my website!')">Click for a surprise!</button>
+            <br>
+            <br>
+            <h6 class="ending">Thank you for visiting my website!</h6>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

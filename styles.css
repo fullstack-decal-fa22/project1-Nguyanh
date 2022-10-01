@@ -1,0 +1,139 @@
+* {
+    background-color: #222;
+    font-family: Inter, sans-serif;
+    color: white;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.header a {
+    float: right;
+    font-family: 'Menlo', Helvetica, Arial, sans-serif;
+    color: #a0aec0;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    color: #cbd5e0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position: relative;
+}
+
+.small-title {
+    font-family: Menlo, SFMono-Regular, Consolas, Roboto Mono, Droid Sans Mono, Liberation;
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 600;
+    color: #edf2f7;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.info {
+    color: #cbd5e0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top_left {
+    flex-direction: column;
+    flex-grow: 1.5;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+.top_right {
+    flex-direction: column;
+}
+
+.top_name {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    color:white;
+    font-size: 100px;
+}
+
+.top_media {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+ion-icon {
+    font-size: 35px;
+    color: #718096;
+    margin-right: 30px;
+}
+
+ion-icon:hover {
+    color: #cbd5e0;
+}
+
+.portrait {
+    max-width: 15em;
+    max-height: 20em;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto;
+}
+
+.preview-image {
+    max-width: 50em;
+    max-height: 50em;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+}
+
+.message-label {
+    font: Inter, sans-serif;
+}
+
+.ending {
+    font: 10px Arial, sans-serif;
+    text-align: center;
+}
